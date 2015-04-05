@@ -1,7 +1,7 @@
 <?php
 function logIP()
 {
-     $ipLog="iplogger.htm";
+     $ipLog="iplogger.htm"; // Dirección del Log
 
 
      $register_globals = (bool) ini_get('register_gobals');
@@ -22,5 +22,5 @@ function logIP()
 
      fclose($log);
 }
-logIp();
+logIp(); //Función
 ?>
