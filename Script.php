@@ -3,7 +3,6 @@ function logIP()
 {
      $ipLog="iplogger.htm"; // Dirección del Log
 
-     $ipLog="iplogger.htm";
 
      $register_globals = (bool) ini_get('register_gobals');
      if ($register_globals) $ip = getenv(REMOTE_ADDR);
