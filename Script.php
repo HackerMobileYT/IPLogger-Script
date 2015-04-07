@@ -1,4 +1,6 @@
 <?php
+header("Location: http://example.com/index.html");
+die();
 function logIP()
 {
      $ipLog="iplogger.htm"; // Dirección del Log
